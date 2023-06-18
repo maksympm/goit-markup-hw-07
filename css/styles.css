@@ -1088,6 +1088,7 @@ body {
         padding-left: 15px;
         padding-right: 15px;
         flex-wrap: nowrap;
+        grid-gap: 0 0;
     }
 
     .hero {
