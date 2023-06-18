@@ -700,6 +700,7 @@ body {
 }
 
 
+
 .feature-list .title {
     text-align: center;
     color: var(--title-text-color);
@@ -990,6 +991,19 @@ body {
         font-weight: 700;
         font-size: 56px;
         margin-bottom: 36px;
+    }
+
+    .feature-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .feature-list .item {
+        width: 356px;
+    }
+
+    .feature-list .title {
+        text-align: left;
     }
 
 }
