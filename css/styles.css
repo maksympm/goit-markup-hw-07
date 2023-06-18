@@ -661,8 +661,7 @@ body {
 }
 
 .section-our-works {
-    padding-top: 0;
-    padding-bottom: 120px;
+    display: none;
 }
 
 .works-list {
@@ -1059,4 +1058,8 @@ body {
         margin-right: 24px;
     }
 
-}
+    .section-our-works {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 120px;
+    }
