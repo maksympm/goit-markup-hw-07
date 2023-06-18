@@ -520,7 +520,6 @@ body {
 
 .feature-icon-list {
     display: none;
-    margin-bottom: 8px;
 }
 
 .feature-icon-item {
@@ -996,6 +995,7 @@ body {
     .feature-list {
         flex-wrap: wrap;
         flex-direction: row;
+        grid-gap: 72px 24px;
     }
 
     .feature-list .item {
@@ -1006,6 +1006,9 @@ body {
         text-align: left;
     }
 
+    .feature-list .text {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1032,6 +1035,7 @@ body {
 
     .feature-list {
         flex-direction: row;
+        grid-gap: 0 0;
     }
 
     .feature-list .item {
