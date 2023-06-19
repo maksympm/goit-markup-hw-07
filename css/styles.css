@@ -916,6 +916,10 @@ body {
     fill: var(--alt-text-color);
 }
 
+.footer-subscribe-form {
+    width: 100%;
+}
+
 .subscribe-form {
     display: flex;
     gap: 16px;
