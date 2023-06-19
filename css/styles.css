@@ -943,6 +943,7 @@ body {
     color: var(--alt-title-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     outline: transparent;
+    opacity: 0.3;
 }
 
 .subscribe-form input::placeholder {
@@ -1200,4 +1201,7 @@ body {
         margin-left: 120px;
     }
 
+    .subscribe-form input {
+        opacity: initial;
+    }
 }
