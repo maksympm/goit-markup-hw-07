@@ -41,15 +41,15 @@
                     <a href="tel:+110001111111" class="contact-links-link">+11 (000) 111-11-11</a>
                 </li>
             </ul>
-            <button type="button" class="menu-open-btn">
+            <button type="button" class="menu-open-btn" data-menu-open>
                 <svg class="burger-icon" width="32" height="22">
                     <use href="./images/icons.svg#icon-menu-hamburger"></use>
                 </svg>
             </button>
         </div>
-        <div class="mob-menu">
+        <div class="mob-menu" data-menu>
             <div>
-                <button type="button" class="mob-menu-close" data-modal-close>
+                <button type="button" class="mob-menu-close" data-menu-close>
                     <svg class="modal-close-icon" width="8" height="8">
                         <use href="./images/icons.svg#icon-close-black"></use>
                     </svg>
@@ -540,6 +540,7 @@
         document.body.style.paddingTop = `${pageHeaderHeight}px`;    
     </script>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
