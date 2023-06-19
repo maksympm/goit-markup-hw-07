@@ -82,6 +82,10 @@ body {
     background-size: cover;
 }
 
+.no-scroll{
+    overflow: hidden;
+}
+
 .hero .button {
     color: var(--alt-title-color);
     background-color: var(--accent-color);
